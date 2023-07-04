@@ -8,11 +8,12 @@ export default function PropertyList({ property }) {
                     {property.map((p) => (
                         <PropList
                             key={p.id}
-                            // {...p}
-                            name={p.name}
-                            rating={p.rating}
-                            img={p.img}
-                            offprice={p.offprice}
+                            {...p}
+                            // name={p.name}
+                            // price={p.price}
+                            // rating={p.rating}
+                            // img={p.img}
+                            // offprice={p.offprice}
                         />
                     ))}
                 </div>
