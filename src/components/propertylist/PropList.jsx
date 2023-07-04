@@ -19,7 +19,7 @@ export default function PropList({ name, rating, price, img, offprice, available
                             <p className="rating">{rating} <i className="fa-solid fa-star"></i></p>
                             <p><strong>Price: {offprice ? `$${offprice}` : null}
                                 <span className={offprice ? "offprice" : "currentprice"}> ${price}</span>
-                                {offprice ? <span style={{ color: "#388E3C", fontWeight: "600" }}> {discount ? discPer : NaN }% off</span> : null}
+                                {offprice ? <span style={{ color: "#388E3C", fontWeight: "600" }}> {discount ? `${discPer}% off` : null }</span> : null}
                             </strong></p>
                         </div>
                         <Link to="#" className="btn btn-outline-success mt-4" onClick={disCo}>View Details</Link>
