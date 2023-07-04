@@ -1,0 +1,9 @@
+.add_btn{
+    text-align: right;
+}
+.container{
+    overflow: auto;
+}
+th, td{
+    text-align: center !important;
+}
