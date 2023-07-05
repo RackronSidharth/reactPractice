@@ -1,16 +1,21 @@
 import './color.css'
 import { useState } from 'react'
 
+function randmElement(arr){
+    const idx = Math.floor(Math.random() * arr.length)
+    return arr[idx];
+} 
 export default function ColorCard({colors}) {
-    const randColor = colors[Math.floor(Math.random() * colors.length)]
-
-    const [color, setColor] = useState(randColor)
+   
+    const [color, setColor] = useState(randmElement(colors))
     const changeColor = () => {
-        setColor(randColor)
+       const randomColor = randmElement(colors)
+        setColor(randomColor)
     }
     return (
         <>
             <div className="cardMain" style={{ backgroundColor: color }} onClick={changeColor}></div>
+    
         </>
     )
 }

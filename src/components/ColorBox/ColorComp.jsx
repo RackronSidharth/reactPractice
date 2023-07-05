@@ -17,10 +17,11 @@ export default function ColorComp() {
         "#000080",
         "#008080"
     ]
+    
     return (
         <>
-            {/* <ColorList colors={colors}/> */}
             <ColorCard colors ={colors}/>
+            
         </>
     )
 }
