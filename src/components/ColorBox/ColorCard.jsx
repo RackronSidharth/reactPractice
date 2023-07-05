@@ -15,7 +15,6 @@ export default function ColorCard({colors}) {
     return (
         <>
             <div className="cardMain" style={{ backgroundColor: color }} onClick={changeColor}></div>
-    
         </>
     )
 }
