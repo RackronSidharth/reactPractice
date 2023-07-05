@@ -1,4 +1,5 @@
-import ColorList from "./ColorList"
+import ColorCard from "./ColorCard"
+// import ColorList from "./ColorList"
 
 export default function ColorComp() {
     const colors = [
@@ -18,7 +19,8 @@ export default function ColorComp() {
     ]
     return (
         <>
-            <ColorList colors={colors}/>
+            {/* <ColorList colors={colors}/> */}
+            <ColorCard colors ={colors}/>
         </>
     )
 }
