@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import { useState } from "react"
 export default function PropList({ name, rating, price, img, offprice, available }) {
     const discPer = Math.floor(offprice / price * 100)
-    const [discount,setDiscount] = useState(true) 
+    const [discount,setDiscount] = useState(false) 
     const disCo =() =>{
         setDiscount (!discount);
     }
