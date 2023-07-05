@@ -1,1 +1,2 @@
-.cardMain{height:50px;width:50px}
+.grid-box{height:500px;width:500px;display:flex;flex-wrap:wrap;margin:0 auto;}
+.cardMain{height:20%;width:20%;border:1px solid #ddd;}
