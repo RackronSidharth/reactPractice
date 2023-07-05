@@ -7,7 +7,7 @@ export default function ColorComp() {
         "#F08080",
         "#DFFF00",
         "#FFBF00",
-        "#FF7F50",
+        "#E9967A",
         "#9FE2BF",
         "#6495ED",
         "#40E0D0",
