@@ -9,7 +9,7 @@ import ColorComp from './components/ColorBox/ColorComp';
 // import DieRoll from './components/conditions/DieRoll';
 // import PropCard from './components/props/PropCard';
 // import PropComp from './components/props/PropComp';
-// import Pokemon from './components/PokeComponent/Pokemon';
+import Pokemon from './components/PokeComponent/Pokemon';
 // import Dog from './Dog';
 // import DieRoll from './DieRoll';
 
@@ -17,9 +17,9 @@ import ColorComp from './components/ColorBox/ColorComp';
 function App() {
   return (
     <>
-    <ColorComp/>
+    {/* <ColorComp/> */}
       {/* <DieRoll/> */}
-      {/* <Pokemon /> */}
+      <Pokemon />
       {/* <PropComp/> */}
       {/* <DieRoll/> */}
       {/* <ArrayComp/> */}
