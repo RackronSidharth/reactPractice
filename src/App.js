@@ -1,7 +1,7 @@
 import './App.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
-import ColorComp from './components/ColorBox/ColorComp';
+// import ColorComp from './components/ColorBox/ColorComp';
 // import PropComp from './components/propertylist/PropComp';
 // import ShopComp from './components/shoppingList/ShopComp';
 // import SlotComp from './components/slotmachine/SlotComp';
