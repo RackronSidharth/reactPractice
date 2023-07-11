@@ -16,7 +16,7 @@ export default function ColorComp() {
         "#FF00FF",
         "#000080",
         "#008080"
-    ]
+    ] 
 
     return (
         <>

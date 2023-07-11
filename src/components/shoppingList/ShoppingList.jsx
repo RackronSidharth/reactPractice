@@ -11,6 +11,7 @@ const ShoppingList = ({ items }) => {
                     item={i.item}
                     quantity ={i.quantity}
                     available= {i.available}/>
+                    
                 ))}
             </ul>
         </>

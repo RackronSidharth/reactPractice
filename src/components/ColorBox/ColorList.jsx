@@ -12,4 +12,4 @@ export default function ColorList({ colors }) {
             </div>
         </>
     )
-}
+} 
