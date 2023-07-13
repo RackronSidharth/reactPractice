@@ -18,7 +18,7 @@ function App() {
     <>
       {/* <ColorComp/> */}
       {/* <DieRoll/> */}
-      <Pokemon />
+      {/* <Pokemon /> */}
       {/* <PropComp/> */}
       {/* <DieRoll/> */}
       {/* <ArrayComp/> */}
