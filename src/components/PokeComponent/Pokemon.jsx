@@ -8,7 +8,7 @@ export default function Pokemon() {
         <>
             <div className="container">
                 <div className="row g-4">
-                    {arr[i]}
+                    {arr}
                 </div>
             </div>
         </>
